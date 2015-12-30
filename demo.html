@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>滚动监听</title>
+	<link rel="stylesheet" type="text/css" href="css/scrollMonitor.min.css">
+</head>
+<body>
+<div style="width:1000px;margin:0 auto;">
+<div class="floor-content" style="height:3000px;">
+	<div class="floor" id="floor-1">第一楼</div>
+	<div class="floor" id="floor-2">第二楼</div>
+	<div class="floor" id="floor-3">第三楼</div>
+	<div class="floor" id="floor-4">第四楼</div>
+	<div class="floor" id="floor-5">第五楼</div>
+	<div class="floor" id="floor-6">第六楼</div>
+	<div class="floor" id="floor-7">第七楼</div>
+	<div class="floor" id="floor-8">第八楼</div>
+	<div class="floor" id="floor-9">第九楼</div>
+	<div class="floor" id="floor-10">第十楼</div>
+</div>
+<div class="floor-nav">
+	<ul>
+		<li class="current"><em>基本用品</em><a href="#floor-1">1F</a></li>
+		<li><em>基本用品</em><a href="#floor-2">2F</a></li>
+		<li><em>基本用品</em><a href="#floor-3">3F</a></li>
+		<li><em>基本用品</em><a href="#floor-4">4F</a></li>
+		<li><em>基本用品</em><a href="#floor-5">5F</a></li>
+		<li><em>基本用品</em><a href="#floor-6">6F</a></li>
+		<li><em>基本用品</em><a href="#floor-7">7F</a></li>
+		<li><em>基本用品</em><a href="#floor-8">8F</a></li>
+		<li><em>基本用品</em><a href="#floor-9">9F</a></li>
+		<li><em>基本用品</em><a href="#floor-10">10F</a></li>
+	</ul>
+</div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/scrollMonitor.js"></script>
+<script type="text/javascript">
+function fn1(){alert(0);}
+$(".floor").scrollMonitor();
+</script>
+</body>
+</html>
